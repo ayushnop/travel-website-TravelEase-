@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelEase | Login</title>
+</head>
+<body>
+
+    <h1>TravelEase</h1>
+    <p>Your journey starts here ✈️</p>
+
+    <hr>
+
+    <h2>Login / Travel Details</h2>
+
+    <form>
+
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mobile">Mobile Number:</label><br>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" placeholder="10-digit number" required><br><br>
+        </fieldset>
+
+        <br>
+
+        <!-- Travel Details -->
+        <fieldset>
+            <legend>Travel Information</legend>
+
+            <label for="pickup">Pickup City:</label><br>
+            <input type="text" id="pickup" name="pickup" required><br><br>
+
+            <label for="date">Travel Date:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="travelers">Number of Travelers:</label><br>
+            <input type="number" id="travelers" name="travelers" min="1" max="10" required><br><br>
+
+            <label>Mode of Travel:</label><br>
+            <input type="radio" id="flight" name="mode" value="flight" required>
+            <label for="flight">Flight</label><br>
+
+            <input type="radio" id="train" name="mode" value="train">
+            <label for="train">Train</label><br>
+
+            <input type="radio" id="bus" name="mode" value="bus">
+            <label for="bus">Bus</label><br><br>
+        </fieldset>
+
+        <br>
+
+        <!-- Additional Details -->
+        <fieldset>
+            <legend>Additional Details</legend>
+
+            <label for="idproof">ID Proof Type:</label><br>
+            <select id="idproof" name="idproof" required>
+                <option value="">--Select ID Proof--</option>
+                <option value="aadhar">Aadhar Card</option>
+                <option value="passport">Passport</option>
+                <option value="driving">Driving License</option>
+            </select><br><br>
+
+            <label for="accommodation">Accommodation Type:</label><br>
+            <select id="accommodation" name="accommodation">
+                <option value="">--Select--</option>
+                <option value="hotel">Hotel</option>
+                <option value="resort">Resort</option>
+                <option value="homestay">Homestay</option>
+            </select><br><br>
+
+            <label for="requests">Special Requests:</label><br>
+            <textarea id="requests" name="requests" rows="4" cols="30" placeholder="Any special requirements"></textarea><br><br>
+        </fieldset>
+
+        <br>
+
+        <!-- Submit -->
+        <button type="submit">Login & Continue</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+    <hr>
+
+    <footer>
+        <p>© 2026 TravelEase. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
