@@ -20,6 +20,20 @@ This project was created to practice HTML form elements and semantic structure.
 - Add CSS styling
 - Form validation using JavaScript
 - Convert into a complete travel website
+- 
+- ## How to Run the Project
+1. Download or clone the repository  
+2. Open the `index.html` file in any web browser  
+3. Fill the form to see how the booking page works  
+
+## Learning Outcome
+- Improved understanding of HTML forms  
+- Practiced semantic HTML elements  
+- Learned how to structure a basic project  
+
+## Author
+- Ayush
+
 
 
 
